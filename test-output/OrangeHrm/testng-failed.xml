@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHrm]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Orange Test Cases(failed)">
+    <classes>
+      <class name="testcase.Orange_Login_Testcase">
+        <methods>
+          <include name="quit"/>
+          <include name="loginpagetesting1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcase.Orange_Login_Testcase -->
+      <class name="testcase.Orange_Home_Page_TestCase">
+        <methods>
+          <include name="verify_pim_link_working"/>
+          <include name="verify_chart"/>
+          <include name="quit"/>
+          <include name="verifyDashboard"/>
+          <include name="verify_My_Actions_menu"/>
+          <include name="verify_Pim_menu"/>
+          <include name="verify_myActions_list"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcase.Orange_Home_Page_TestCase -->
+    </classes>
+  </test> <!-- Orange Test Cases(failed) -->
+</suite> <!-- Failed suite [OrangeHrm] -->
